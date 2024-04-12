@@ -23,7 +23,7 @@ void bubble_sort(int *array, size_t size)
 	while (change)
 	{
 		change = 0;
-		for (i  = 1; i < j; i++ )
+		for (i  = 1; i < j; i++)
 		{
 			if (array[i - 1] > array[i])
 			{
