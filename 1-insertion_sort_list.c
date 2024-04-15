@@ -25,8 +25,8 @@ void insertion_sort_list(listint_t **list)
 			if (change->next)
 				change->next->prev = previous;
 
-			if (prevoius->prevoius)
-				prevoius->prev->next = swap;
+			if (previous->prevoius)
+				prevoius->prev->next = change;
 			else
 				*list = change;
 
