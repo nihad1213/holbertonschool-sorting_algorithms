@@ -26,14 +26,14 @@ void insertion_sort_list(listint_t **list)
 				change->next->prev = previous;
 
 			if (previous->prevoius)
-				prevoius->prev->next = change;
+				previous->prev->next = change;
 			else
 				*list = change;
 
 			previous->next = change->next;
 			change->prev = previous->prev;
 			change->next = previous;
-			previous->prev = swap;
+			previous->prev = change;
 
 			print_list(*list);
 	
