@@ -29,7 +29,7 @@ void selection_sort(int *array, size_t size)
 
 		for (j = i + 1; j < size; j++)
 		{
-			if (arr[j] < arr[min_index])
+			if (array[j] < array[min_index])
 				min_index = j;
 		}
 
