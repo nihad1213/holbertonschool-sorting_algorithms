@@ -6,7 +6,7 @@
  * @change2: number2
  * Return: void
  */
-void swap(int *change1, int change2)
+void swap(int *change1, int *change2)
 {
 	int temp = *change1;
 	*change1 = *change2;
