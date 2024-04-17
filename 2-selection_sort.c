@@ -9,7 +9,7 @@
 void swap(int *change1, int change2)
 {
 	int temp = *change1;
-	*change1 = &change2;
+	*change1 = *change2;
 	*change2 = temp;
 }
 
