@@ -21,9 +21,9 @@ void swap(int *change1, int *change2)
  */
 void selection_sort(int *array, size_t size)
 {
-	int i , j, min_index;
+	size_t i , j, min_index;
 
-	for (i = 0; i < (unsigned)(size - 1); i++)
+	for (i = 0; i < (size - 1); i++)
 	{
 		min_index = i;
 
